@@ -373,6 +373,10 @@ footer > ul > .sonlist {
     display: flex;
     max-width: 56px;
   }
+  .logopc {
+    display: none;
+    display: hidden;
+  }
   input {
     display: none;
   }
@@ -381,5 +385,35 @@ footer > ul > .sonlist {
   .login,
   .menu {
     cursor: pointer;
+  }
+}
+@media (max-width: 445px) {
+  .Ofertas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .allcards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Referencias {
+    max-width: 300px;
+  }
+  .logopc {
+    display: none;
+    display: hidden;
+  }
+  .navegacion {
+    padding: 0;
+    margin: 0;
+  }
+  .lupa,
+  .carro,
+  .login,
+  .menu {
+    min-width: 2rem;
+    min-height: 2rem;
+    padding: 0;
+  }
+  .carro {
+    margin-right: var(--rtc-padding-s);
   }
 }

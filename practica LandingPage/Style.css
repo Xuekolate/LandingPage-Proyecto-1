@@ -188,7 +188,7 @@ input {
   margin-left: var(--rtc-padding-ss);
 }
 .cartas {
-  width: 250px;
+  width: 100%;
   padding: var(--rtc-padding-m);
   border-radius: 10px;
   gap: 20px;
@@ -387,7 +387,8 @@ footer > ul > .sonlist {
     cursor: pointer;
   }
 }
-@media (max-width: 445px) {
+
+@media (max-width: 600px) {
   .Ofertas {
     grid-template-columns: repeat(1, 1fr);
   }
